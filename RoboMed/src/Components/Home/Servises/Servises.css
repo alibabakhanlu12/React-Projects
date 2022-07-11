@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+ 
+
+.servises1{
+    margin-top: 100px;
+    color: blue;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.servises11{
+    margin-top: 30px;
+     font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+.servises-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 10px; 
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.servises-card1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 300px;
+    height: 270px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px;
+}
+
+.servises-title{
+    margin-left: 10px;
+    color: #4A5668;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+.servises-flag{
+    
+    width: 30px;
+    height: 30px;
+  
+
+ }
+
+.servises-des{
+    margin-right: 10px;
+
+font-size: 20px;
+color: #707174;
+font-weight: 500;
+margin-left: 10px;
+}
+
+.servises-place{
+
+    background-color: #EBECEE;
+    border-radius: 3px;
+   padding: 0px 10px;
+}
+ .servises-even{
+    background-color: #29A9E1;
+    width: 100%;
+    height: 20px;
+    border-radius: 4px;
+ }
+
+ .servises-week{
+    background-color:  #FFD964;
+    width: 100%;
+    height: 20px;
+    border-radius: 4px;
+ }
+ 
+ .hospital {
+background-color: #EAF6FC;
+color: #29A9E1;
+margin-bottom: 10px;
+ 
+margin-left: 10px;
+padding: 3px 13px ;
+width: 100px;
+display: flex;
+flex-direction: row;
+gap: 10px;
+
+}
+
+ .clinic{
+    background-color: #EBECEE;
+    color: #334155;
+margin-bottom: 10px;
+margin-left: 10px;
+padding: 3px 10px ;
+display: flex;
+flex-direction: row;
+gap: 10px;
+
+ }
+
+ .circle{
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    background-color: #41B3E4;
+    margin-top: 10px;}
+
+ .placesss{
+    display: flex;
+    flex-direction: row;
+ }
+

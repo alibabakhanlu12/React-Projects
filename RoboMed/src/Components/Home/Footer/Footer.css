@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+ 
+
+.footer{
+    background: rgb(241,249,252);
+    background: linear-gradient(94deg, rgba(241,249,252,1) 23%, rgba(245,239,221,1) 45%, rgba(234,241,244,1) 100%);
+    font-family: "Poppins", sans-serif;     
+}
+
+footer {
+   width: 100%;
+    height: 350px;
+margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.footer-title{
+font-size: 50px;
+color: #334155;
+font-weight: 700;
+font-family: "Poppins", sans-serif;
+}
+.footer-des1{
+color: #9EABBA;
+font-size: 20px;
+width: 500px;
+font-weight: 400;
+font-family: "Poppins", sans-serif;
+}
+
+.footer-des{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: "Poppins", sans-serif;
+}
+
+ .footer-icons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+ }
+
+.footer-icons h2 {
+    color:  #29A9E1;
+ 
+    border-radius: 20%;
+    font-size:28px ;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+.footer-conect{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.icon {
+    font-size: 20px;
+    color: #29A9E1;
+}
+
+.footer-phone{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+
+    gap: 10px;
+}
+
+.footer-email{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    gap: 10px;  
+}
+
+.footer-address{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 10px;  
+    font-family: "Poppins", sans-serif;
+}
+
+.coppyright{
+    margin-top: 30px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    height: 60px;
+    margin: 30px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-family: "Poppins", sans-serif;
+
+}

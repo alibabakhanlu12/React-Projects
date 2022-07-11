@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+ 
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    margin-top: 20px;
+    background: rgb(248,247,234);
+    background: linear-gradient(90deg, rgba(248,247,234,1) 28%, rgba(252,244,219,1) 31%, rgb(255, 253, 246) 58%, rgba(246,246,247,1) 69%, rgba(250,251,251,1) 76%);
+    width: 100%;
+    height: 700px;
+}
+.slider1{
+  
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.slider-img{
+    width: 300px;
+   
+}
+.text-slider{
+ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.title-slider {
+
+    font-size: 70px;
+    width: 560px;
+    font-weight: bold;
+    color: #334155;
+}
+.p-slider {
+
+    margin-top: 40px;
+    width: 770px;
+    font-size: 27px;
+    color: #9FABBB;
+    
+}
+
+.slider-btn {
+
+    background-color: #29A9E1;
+     margin-top: 40px;
+    border-radius:12px ;
+    width: 200px;
+    height: 70px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.slider-cards{
+    margin-top: -70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin-left:21px;
+    margin-right: 21px;
+
+}
+
+.card-title{
+    font-size:25px;
+    color: #334155;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.card-des{
+    color: #C7CAC8;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+
+
+}

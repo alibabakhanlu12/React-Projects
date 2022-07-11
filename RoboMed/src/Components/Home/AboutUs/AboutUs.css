@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+ 
+
+.aboutus-card{
+    background: rgb(234,243,246);
+background: linear-gradient(94deg, rgba(234,243,246,1) 19%, rgba(244,246,232,1) 43%, rgba(247,247,235,1) 60%, rgba(246,246,247,1) 69%, rgba(251,250,245,1) 76%);
+
+width: 1200px;
+height: 250px;
+display: flex;
+margin-left: 70px;
+
+margin-bottom: 100px;
+display: flex;
+flex-direction: row;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+.aboutus-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size:28px ;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+    color: blue;
+}
+
+.aboutus-des1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size:39px ;
+    font-weight: 500;
+    color: #334155;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+.aboutus-des{
+   
+    text-align: center;
+    font-size:17px ;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 40px;
+    width: 700px;
+    margin-left: 20px;
+}
+.aboutus-img{
+        margin-left: 20px;
+        margin-top: 10px;
+    width: 240px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.aboutus-costumer{
+    text-align: center;
+    margin-top: 190px;
+    font-size: 25px;
+    color: #6E7A87;
+    font-weight: 500;
+
+}
+
+.aboutus-changecard{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+   margin-left: 500px;
+margin-top: 220px;}
+
+#fill{
+    background-color: #29A9E1;
+
+}
+
+.circle{
+    border-radius: 50%;
+    width: 10px;
+    background-color: #B8E2EF;
+    height: 10px;
+}

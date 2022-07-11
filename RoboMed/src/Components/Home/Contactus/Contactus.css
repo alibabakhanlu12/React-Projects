@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+ 
+.text-input {
+ 
+      padding: 15px;
+      margin:4px;
+      box-sizing: border-box;
+      padding-left:60px;
+      width: 700px;
+      height:90px;
+      font-size: 25px;
+      background-color: #F8F8F8;
+      border: none;
+      margin-left: 200px;
+}
+.text-input:hover{
+    border: none;
+}
+
+.text-icon{
+    position:absolute;
+      left:0;
+      top:20px;
+      padding:10px 10px;
+      color:#30A3F1;
+      font-size: 45px;
+      margin-top: -10px;
+      margin-left: 200px;
+
+}
+
+
+.sub-btn {
+    position:absolute;
+    right:10px;
+  
+    padding:10px 10px;
+    background-color:#29A9E1;
+    font-size: 20px;
+ 
+    width: 160px;
+    height: 75px;
+    margin-top: 10px;
+    border-radius: 12px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+
+}
+.contactus-des{
+    position: absolute;
+     top:490%;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: start;
+    color: #334155;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.contactus-title{
+    margin-left: 40px;
+    margin-top: 100px;
+    color: #56BBE7;
+    font-size: 25px;
+    position: absolute;
+
+}
+
+
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+
+.email-input{
+    position:relative;
+ 
+   
+    margin-top: 160px;
+    margin-left: 400px;
+}
+ 
