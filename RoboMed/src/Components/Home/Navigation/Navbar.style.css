@@ -4,12 +4,14 @@
   
     width: 100%;
     height: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #ffff;
-    margin-bottom: 50px;
+    margin-bottom: -17px;
+  
+
 }
 .nav-icon{
     display: flex;
@@ -26,7 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 10px;
     align-items: center;
     font-family: "Poppins", sans-serif;
 
@@ -34,6 +36,11 @@
     color: #A8B2C0;
     font-weight: 400;
  
+}
+
+.home1{
+    background-color: #D4EDF8;
+    border-radius: 12px;
 }
 
 .links-home {
@@ -57,3 +64,150 @@ ul {
     font-size: 40px;
     font-weight: 600;
 }
+
+a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    box-shadow: rgba(177, 177, 187, 0.23) 0px 30px 30px -20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #fff;
+  
+    /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+  }
+  
+  .logo {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+  
+  .nav-links li {
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  .hero h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+  }
+  
+  
+  button {
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    background: none;
+  }
+  
+  .nurse_login1,
+  .user_login1 {
+    color: #fff;
+    background-color: aquamarines;
+  
+  }
+  
+  
+  
+  .nurse_login,
+  .user_login {
+    /* background-color: blue; */
+    border-radius: 12px;
+    margin-right: 4px;
+    /* width: 600px; */
+    /* height: 60px; */
+    /* color: white; */
+  
+  }
+  
+  .nurse_login {
+    margin-left: 30px;
+  }
+  
+  .icons {
+    font-size: 18px;
+  }
+  
+  
+  @media (max-width:930px) {
+    .logo {
+      display: flex;
+      position: absolute;
+      top:  0px;
+      left: 35px;
+      font-size: 30px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-mobile {
+      position: absolute;
+      display: block;
+      list-style: none;
+      box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      left: 0;
+      top: 10%;
+      transition: all 0.5s ease-in-out;
+      width: 100%;
+      background-color: white;
+      z-index: 1;
+    }
+  
+  
+  
+    ul li {
+  
+      padding: 32px;
+      width: 100%;
+      transition: all 0.5s ease-in-out;
+      text-align: center;
+      font-size: 30px;
+  
+    }
+  
+    .mobile-menu-icon {
+      position: absolute;
+      display: block;
+      right: 20px;
+    }
+  
+    .hero h1 {
+      font-size: 50px;
+        }}

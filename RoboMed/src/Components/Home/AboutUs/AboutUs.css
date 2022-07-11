@@ -10,7 +10,7 @@ height: 250px;
 display: flex;
 margin-left: 70px;
 
-margin-bottom: 100px;
+margin-bottom: 150px;
 display: flex;
 flex-direction: row;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -19,9 +19,9 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 
 .aboutus-title {
-    margin-top: 100px;
+    margin-top: 150px;
     text-align: center;
-    font-size:28px ;
+    font-size:22px ;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
 
@@ -29,12 +29,12 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .aboutus-des1 {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     font-size:39px ;
     font-weight: 500;
     color: #334155;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -89,4 +89,55 @@ margin-top: 220px;}
     width: 10px;
     background-color: #B8E2EF;
     height: 10px;
+}
+
+@media(max-width:900px){
+    
+.aboutus-card{
+ 
+width: 400px;
+height: 580px;
+display: flex;
+margin-left: 70px;
+
+margin-bottom: 100px;
+display: flex;
+flex-direction: column;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.aboutus-des{
+   
+ 
+    margin-bottom: 10px;
+ 
+    margin-top: 40px;
+    height: 730px;
+    width: 340px;
+   
+}
+.aboutus-costumer{
+    margin-top: -90px;
+    margin-bottom: 50px;
+    
+
+}
+.aboutus-img{
+ margin-left: 40px;
+    text-align: center;
+ margin-top: 10px;
+width: 300px;
+height: 300px;
+border-radius: 30%;
+}
+.aboutus-changecard{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+     margin-left:  160px;
+margin-top: 550px;}
+
+ 
+ 
 }

@@ -108,3 +108,28 @@ font-family: "Poppins", sans-serif;
     font-family: "Poppins", sans-serif;
 
 }
+
+@media(max-width:900px){
+ 
+    footer {
+       width: 300px;
+        height: 400px;
+       margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        margin-left: 20px;
+    
+    }
+    .footer-des{
+        margin-left: -140px;
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        margin-left: -205px;
+        /* margin-right:-190px; */
+        font-family: "Poppins", sans-serif;
+    }
+}

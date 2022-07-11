@@ -1,6 +1,6 @@
 import React from 'react'
 import './Servises.css'
-import flag from '../../assets/flag.png'
+import flag from '../../../assets/flag.png'
 function Servises() {
 
     const info_servises =[

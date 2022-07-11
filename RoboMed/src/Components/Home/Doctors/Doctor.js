@@ -17,7 +17,7 @@ function Doctor() {
            <div className='doctors' >
 
              {   DoctorsList.map((index)=>(
-                    <div data-aos={index.aos}  className='doctor-card' key={index.id}>
+                    <div   className='doctor-card' key={index.id}>
 
                     <img  src={index.image} className='doctor-img' alt= 'dfsd'
                     />

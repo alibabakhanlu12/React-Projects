@@ -5,7 +5,7 @@ import Slider from './Components/Home/Navigation/Slider';
 import Servises from './Components/Home/Servises/Servises'
 import Aboutus from './Components/Home/AboutUs/Aboutus';
 import Doctor from './Components/Home/Doctors/Doctor';
-import Contactus from './Components/Home/Subscribe/Subscribe';
+import Subscribe from './Components/Home/Subscribe/Subscribe';
 import Footer from './Components/Home/Footer/Footer';
 import {Helmet} from "react-helmet";
 
@@ -22,7 +22,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },3000)
+    },4000)
   },[])
   return(
   
@@ -33,14 +33,15 @@ function App() {
   </Helmet>
 {loading?
 
-<ScaleLoader className='loader' color={'#000'} loading={loading}   size={150} />
+<ScaleLoader className='loader' color={'#000'} loading={loading}   size={250} />
 : 
-<> <Navbar/>
+<> 
+<Navbar/>
  <Slider/>
  <Servises/>
  <Aboutus/>
  <Doctor/>
- <Contactus/>
+ <Subscribe/>
  <Footer/> 
  </>
   }

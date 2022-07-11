@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import './AboutUs.css'
-import manimg from '../../assets/man.jpg'
+import manimg from '../../../assets/man.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
   

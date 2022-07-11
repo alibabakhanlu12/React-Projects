@@ -1,13 +1,13 @@
 import React from 'react'
 import './Subscribe.css'
 import {MdEmail} from 'react-icons/md'
-function Contactus() {
+function Subscribe() {
   return (
     <div className='subscribe'> 
         <div className='text'>
-
+           
             <h3 className='contactus-title'> Newsletter Subscribe</h3>
-            <h3 className='contactus-des'> To Get more News Subscribe Us</h3>
+         <h3 className='contactus-des'> To Get more News Subscribe Us</h3>
 
 
         </div>
@@ -23,4 +23,4 @@ function Contactus() {
   )
 }
 
-export default Contactus
+export default Subscribe

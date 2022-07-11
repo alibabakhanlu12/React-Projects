@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import './Slider.css'
-import SliderImage from '../../assets/910540.png'
+import SliderImage from '../../../assets/910540.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 function Slider() {
