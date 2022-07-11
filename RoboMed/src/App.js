@@ -5,7 +5,7 @@ import Slider from './Components/Home/Navigation/Slider';
 import Servises from './Components/Home/Servises/Servises'
 import Aboutus from './Components/Home/AboutUs/Aboutus';
 import Doctor from './Components/Home/Doctors/Doctor';
-import Contactus from './Components/Home/Contactus/Contactus';
+import Contactus from './Components/Home/Subscribe/Subscribe';
 import Footer from './Components/Home/Footer/Footer';
 import {Helmet} from "react-helmet";
 
