@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contactus.css'
+import './Subscribe.css'
 import {MdEmail} from 'react-icons/md'
 function Contactus() {
   return (
