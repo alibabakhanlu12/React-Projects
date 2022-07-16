@@ -5,19 +5,16 @@
       padding: 15px;
       margin:4px;
       box-sizing: border-box;
-      padding-left:70px;
+      padding-left:80px;
       width: 622px;
       height:82px;
       font-size: 25px;
       background-color: rgba(188, 188, 188, 0.1);
       border: none;
       border-radius: 8px;
-    margin-left: -200px;
+    margin-left: -210px;
     font-family: "Poppins", sans-serif;
- 
-}
-.text-input:focus{
-    border: none;
+  
 }
 
 .text-icon{
@@ -94,7 +91,7 @@
     margin-left: 400px;
 }
  
-@media (max-width:700px){
+@media (max-width:900px){
 
     .subscribe{
         display: flex;
@@ -103,14 +100,15 @@
     }
     .contactus-des{
         position: relative;
-        margin-left: 40px;
+        margin-left: 0px;
         margin-top: 70px;
         text-align: start;
         margin-bottom: -90px;
+        width: 350px;
     
     }
     .contactus-title{
-        margin-left: 40px;
+        margin-left: 0px;
         margin-top: 40px;
         
         position: absolute;
@@ -123,14 +121,15 @@
        
     }
     .text-input {
-        margin-left: -400px;
-        width: 380px;
+        margin-left: -500px;
+        width: 480px;
         height:60px;
-        font-size: 25px;
+        font-size: 20px;
         margin-top: -90px;
         background-color: #F8F8F8;
-    
-        
+        padding-left:180px;
+     
+      font-family: "Poppins", sans-serif;  
   }
   .text{
     margin-left: 0px;

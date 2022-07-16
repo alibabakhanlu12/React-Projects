@@ -21,6 +21,8 @@
     font-weight: 500;
     margin-bottom: 30px;
     font-family: "Poppins", sans-serif;
+  
+
 }
 
 
@@ -77,7 +79,12 @@ margin-top: 220px;}
 
 @media(max-width:900px){
     
- 
+    .aboutus-des1 {
+         
+        width: 360px;
+    
+    }
+    
 .aboutus-des{
    
  
@@ -111,6 +118,6 @@ border-radius: 30%;
      margin-left:  160px;
 margin-top: 550px;}
 
- 
+  
  
 }

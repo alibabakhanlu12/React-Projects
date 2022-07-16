@@ -116,7 +116,7 @@ a {
   }
   
   
-  @media (max-width:930px) {
+  @media (max-width:900px) {
     .logo {
       display: flex;
       position: absolute;
@@ -127,7 +127,7 @@ a {
       justify-content: center;
       align-items: center;
     }
-  
+   
     .nav-links {
       display: none;
     }
@@ -136,13 +136,13 @@ a {
       position: absolute;
       display: block;
       list-style: none;
-      left: 0;
+      left: 0px;
       top: 10%;
       transition: all 0.5s ease-in-out;
-      width: 100%;
+      width: 80%;
       z-index: 1;
 
-      background-color: rgb(54, 36, 12);
+      background-color: rgb(55, 20, 138);
     }
   
   
