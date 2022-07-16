@@ -43,13 +43,13 @@ function Servises() {
     gap: 10px; 
     align-items: center;
     justify-content: space-around;
-    @media(max-width: 900px)  {
+    @media only screen and (max-width: 900px)  {
         display: flex;
         flex-direction: column;
     } 
     flex-wrap: wrap;
     `
-    
+     
     const Card = styled.div`
       display: flex;
       flex-wrap: wrap;
@@ -82,7 +82,7 @@ height: 221px;
                 <div className={index.color}></div>
                 <h1 className='servises-title'>{index.title} <img alt='jdfd' className='servises-flag' src={flag}/></h1>
                 <p className='servises-des'>{index.des}</p>
-               <div className={index.place}> <h3 className='circle'> </h3> {index.place}</div> 
+                <div className={index.place}> <h3 className='circle'> </h3> {index.place}</div> 
             </Card>
         ))}
 </ServisesCard>

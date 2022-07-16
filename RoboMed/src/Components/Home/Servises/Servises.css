@@ -97,7 +97,7 @@ color: #29A9E1;
 
  .clinic{
     /* background: rgba(51, 65, 85, 0.1); */
-    margin-bottom: 10px;
+      margin-bottom: 10px;
      background:  #3341551A;  
     border-radius: 8px;
     margin-left: 10px;
@@ -107,6 +107,8 @@ color: #29A9E1;
     width: 100px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center ;
     gap: 10px;
 
  }
@@ -116,9 +118,8 @@ color: #29A9E1;
     width: 9px;
     height: 9px;
     background-color: #585454;
-    margin-top: 10px;
 
-}
+}   
 
  .placesss{
     display: flex;

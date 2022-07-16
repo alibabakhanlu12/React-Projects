@@ -11,7 +11,7 @@ import ReactSwitch from 'react-switch'
 function Navbar() { 
 const { theme } = useContext(Themecontext)
   const {Toggle} = useContext(Themecontext)
-  const Navbar = styled.nav`
+  const Navbar1 = styled.nav`
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,9 +21,11 @@ const { theme } = useContext(Themecontext)
     top: 0px;
     z-index: 1;
     font-weight: 500;
+    width: 100%;
     background-color:  ${theme ? '#334155' : '#fff'};
     color: ${theme ?'#D1DAE7' : '#79899E' };
     margin-bottom: -30px;
+    margin-top: -5px;
   `
 
     const Home = styled.ul`
@@ -37,7 +39,7 @@ const { theme } = useContext(Themecontext)
     border-radius: 12px;
     color: #29A9E1;
 
-    @media(max-width: 900px) {
+    @media only screen and (max-width: 900px) {
       width: 380px;
       height: 80px;
       font-size: 30px;
@@ -53,7 +55,7 @@ const { theme } = useContext(Themecontext)
     justify-content: flex-start;
     gap: 5px;
     color: ${theme?'#fff' : '#334155'};
-    @media(max-width:900px) {
+    @media only screen and (max-width:900px) {
       
       margin-left:-50px;
       font-size: 26px;
@@ -61,13 +63,13 @@ const { theme } = useContext(Themecontext)
     justify-content: flex-start;
 
     }
-  `
+  ` 
 
   const [Mobile, setMobile] = useState(false)
  
   return (
   <>
-      <Navbar >
+      <Navbar1 >
           <Logo  >   RoboMed 
                  <img className='home-icon' alt='fsh' src={SliderImage}/> </Logo>  
 
@@ -82,7 +84,8 @@ const { theme } = useContext(Themecontext)
             <li>  Servises</li>
             <li> FAQ</li>  
           
-      <div className='darkmode1'>  <label className= 'darkmode'>darkmode:</label>    <ReactSwitch className='toggle' onChange={Toggle} checked={theme}/>
+      <div className='darkmode1'>  <label className= 'darkmode'>darkmode:</label> 
+         <ReactSwitch className='toggle' onChange={Toggle} checked={theme}/>
       </div>
            
         </ul>
@@ -90,7 +93,7 @@ const { theme } = useContext(Themecontext)
         <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
           {Mobile ? <ImCross /> : <FaBars />}
         </button>
-      </Navbar>
+      </Navbar1>
  
   </>
   )

@@ -19,14 +19,11 @@ function Footer() {
   const { theme } = useContext(Themecontext)
 
 
-  const Footer = styled.footer`
-      background:${theme?'#334155' :'rgb(241,249,252)'} ;
-    background:${theme?'#334155' :'linear-gradient(94deg, rgba(241,249,252,1) 23%, rgba(245,239,221,1) 45%, rgba(234,241,244,1) 100%)'};
+  const Footer2 = styled.div`
+    background:${theme? '#334155' :'rgb(241,249,252)'} ;
+    background:${theme? '#334155' :'linear-gradient(94deg, rgba(241,249,252,1) 23%, rgba(245,239,221,1) 45%, rgba(234,241,244,1) 100%)'};
     font-family: "Poppins", sans-serif; 
-backdrop-filter: blur(200px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 8px;
+   
   `
 
 const Footer1 = styled.div`
@@ -37,17 +34,17 @@ margin-bottom: 0px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    @media(max-width:900px){
+ 
+    @media only screen and (max-width:900px){
   
-    width: 350px;
-     height: 400px;
+    width: 360px;
+     height: 450px;
     margin-bottom: 0px;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
      align-items: center;
      gap: 50px;
-     margin-left: 20px;
  
     }
 
@@ -57,7 +54,7 @@ margin-bottom: 0px;
 
 
   return (
-    <Footer>
+    <Footer2>
     <Footer1> 
     
     <div className='footer-des'>
@@ -94,7 +91,7 @@ margin-bottom: 0px;
        <BiCopyright/> <p> 2022 Global Access Teleheath .All Rights Reserved .Privacy Policy</p>
     </div>
    
-    </Footer>
+    </Footer2>
   )
 }
 
