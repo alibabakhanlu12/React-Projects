@@ -1,29 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
  
-
-/* .doctors{
  
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    padding-bottom: 2em;
-    margin-left: 10px;
-    
-} */
-
-/* .doctor-card{
-    width: 300px;
-    height: 400px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:  space-around;
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border-radius: 12px;
-
-} */
 .doctor-title{
     color: #29A9E1;
     font-size: 21px;
@@ -56,22 +33,5 @@
     color: #29A9E1;
     font-weight: 500;
 }
-
-
-@media(max-width:900px){
-    .doctors{
  
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1rem;
-        padding-bottom: 2em;
-        margin-left: -55px;
-        
-    }
-
-    /* .doctor-card{
-        margin-left: 100px;
-    
-    } */
-    
-}
+ 

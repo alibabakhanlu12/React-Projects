@@ -20,19 +20,19 @@ import 'aos/dist/aos.css';
    width: 1200px;
    height: 250px;
    display: flex;
-   margin-left: 70px;
+   margin-left: 60px;
    margin-bottom: 150px;
    display: flex;
    flex-direction: row;
    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  
-@media(max-width:900px){
+@media only screen and (max-width:900px){
      
-     
+      
     width: 350px;
     height: 580px;
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
     
     margin-bottom: 100px;
     display: flex;
