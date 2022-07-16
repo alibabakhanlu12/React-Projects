@@ -56,7 +56,6 @@
     position: absolute;
     font-family: "Poppins", sans-serif;
 
-
 }
 .contactus-des{
   
@@ -82,14 +81,14 @@
     margin-bottom: 100px;
 }
 
-
+  
 .email-input{
     position:relative;
  
    
     margin-top: 160px;
     margin-left: 400px;
-}
+} 
  
 @media (max-width:900px){
 
@@ -105,11 +104,12 @@
         text-align: start;
         margin-bottom: -90px;
         width: 350px;
+        margin-left: 10px;
     
     }
     .contactus-title{
-        margin-left: 0px;
         margin-top: 40px;
+    margin-left: 10px;
         
         position: absolute;
 
@@ -124,7 +124,7 @@
         margin-left: -500px;
         width: 480px;
         height:60px;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: -90px;
         background-color: #F8F8F8;
         padding-left:180px;

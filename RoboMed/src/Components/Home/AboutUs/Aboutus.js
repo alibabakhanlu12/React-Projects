@@ -28,12 +28,12 @@ import 'aos/dist/aos.css';
  
 @media only screen and (max-width:900px){
      
-      
+        
     width: 350px;
     height: 580px;
     display: flex;
     margin-left: 20px;
-    
+   margin-left: 20px;
     margin-bottom: 100px;
     display: flex;
     flex-direction: column;

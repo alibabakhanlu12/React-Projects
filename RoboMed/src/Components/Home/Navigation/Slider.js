@@ -20,17 +20,16 @@ function Slider() {
     background:${theme?'#334155': 'linear-gradient(90deg, rgba(248,247,234,1) 28%, rgba(252,244,219,1) 31%, rgb(255, 253, 246) 58%, rgba(246,246,247,1) 69%, rgba(250,251,251,1) 76%)'};
     width: 100%;
     height: 700px;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-    @media only screen and (max-width:900px){
-        flex-wrap: wrap;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    @media(max-width:900px){
         gap: 100px;
         margin-top: 20px;
           width: 400px;
         height: 1000px;
-    margin-left: -16px;
- 
-    }
-    `
+        margin-left: -20px;
+
+    }  
+    `  
     useEffect(()=>{
         AOS.init({duration:2000});
       },[])
