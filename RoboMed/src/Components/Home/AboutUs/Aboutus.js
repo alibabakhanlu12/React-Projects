@@ -1,12 +1,45 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useContext} from 'react'
 import './AboutUs.css'
 import manimg from '../../../assets/man.jpg'
 import AOS from 'aos';
+import { Themecontext } from '../../../App'
+import styled from 'styled-components'
+
 import 'aos/dist/aos.css';
   
 
+
       function Aboutus() {
         
+
+    const {theme} = useContext(Themecontext)
+   
+   const AboutUs = styled.div`
+    background:${ theme ? '#334155' : ' rgb(234,243,246)'};
+   background:${ theme ? '#334155' : ' linear-gradient(94deg, rgba(234,243,246,1) 19%, rgba(244,246,232,1) 43%, rgba(247,247,235,1) 60%, rgba(246,246,247,1) 69%, rgba(251,250,245,1) 76%) '};;
+   width: 1200px;
+   height: 250px;
+   display: flex;
+   margin-left: 70px;
+   margin-bottom: 150px;
+   display: flex;
+   flex-direction: row;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ 
+@media(max-width:900px){
+     
+     
+    width: 350px;
+    height: 580px;
+    display: flex;
+    margin-left: 10px;
+    
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }  `
+
         useEffect(()=>{
         AOS.init({duration:2000});
           },[])
@@ -16,7 +49,7 @@ import 'aos/dist/aos.css';
         <h3 className='aboutus-title' >testimonial</h3>
         <h1 className='aboutus-des1'>Paitents say About Us</h1>
 
-        <div data-aos="zoom-in" className='aboutus-card'>
+        <AboutUs data-aos="zoom-in" >
 
             <img  src={manimg} className='aboutus-img' alt='aboutus'/>
             <p className='aboutus-des'>
@@ -33,9 +66,9 @@ import 'aos/dist/aos.css';
 <h5 className='circle'> </h5>
 
 </div>   <h2 className='aboutus-costumer'>Cristiano Ronaldo</h2>
+  
 
-
-        </div>
+        </AboutUs>
 
     </div>
   )

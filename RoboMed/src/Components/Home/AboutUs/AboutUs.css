@@ -1,21 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
  
 
-.aboutus-card{
-    background: rgb(234,243,246);
-background: linear-gradient(94deg, rgba(234,243,246,1) 19%, rgba(244,246,232,1) 43%, rgba(247,247,235,1) 60%, rgba(246,246,247,1) 69%, rgba(251,250,245,1) 76%);
-
-width: 1200px;
-height: 250px;
-display: flex;
-margin-left: 70px;
-
-margin-bottom: 150px;
-display: flex;
-flex-direction: row;
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
+ 
 
 
 .aboutus-title {
@@ -24,8 +10,8 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-size:22px ;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-
-    color: blue;
+  
+    color: #29A9E1;
 }
 
 .aboutus-des1 {
@@ -33,7 +19,6 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     text-align: center;
     font-size:39px ;
     font-weight: 500;
-    color: #334155;
     margin-bottom: 30px;
     font-family: "Poppins", sans-serif;
 }
@@ -65,7 +50,6 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     text-align: center;
     margin-top: 190px;
     font-size: 25px;
-    color: #6E7A87;
     font-weight: 500;
 
 }
@@ -93,18 +77,7 @@ margin-top: 220px;}
 
 @media(max-width:900px){
     
-.aboutus-card{
  
-width: 400px;
-height: 580px;
-display: flex;
-margin-left: 70px;
-
-margin-bottom: 100px;
-display: flex;
-flex-direction: column;
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
 .aboutus-des{
    
  
@@ -112,7 +85,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  
     margin-top: 40px;
     height: 730px;
-    width: 340px;
+    width: 330px;
    
 }
 .aboutus-costumer{
@@ -122,7 +95,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
 .aboutus-img{
- margin-left: 40px;
+ margin-left: 20px;
     text-align: center;
  margin-top: 10px;
 width: 300px;
