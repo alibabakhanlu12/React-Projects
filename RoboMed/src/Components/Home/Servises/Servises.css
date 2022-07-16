@@ -3,12 +3,12 @@
 
 .servises1{
     margin-top: 150px;
-    color: blue;
+    color: #29A9E1;
     text-align: center;
     font-size: 24px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-
+  
 
 }
 .servises11{
@@ -19,36 +19,12 @@
     font-family: "Poppins", sans-serif;
 
 }
-.servises-card{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-    gap: 10px; 
-    align-items: center;
-    justify-content: space-around;
-   
-}
-
-.servises-card1{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    width: 300px;
-    height: 270px;
-    justify-content: space-between;
-    align-items: flex-start;
-    border-radius: 12px;
-}
-
+ 
+ 
 .servises-title{
     margin-left: 10px;
-    color: #4A5668;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     margin-right: 10px;
@@ -56,6 +32,10 @@
 
     justify-content: center;
     align-items: center;
+    line-height: 25px;
+    font-family: "Poppins", sans-serif;
+
+text-align: justify;
 }
 .servises-flag{
     
@@ -67,12 +47,17 @@
 
 .servises-des{
     margin-right: 10px;
+    font-family: "Poppins", sans-serif;
 
-font-size: 20px;
-color: #707174;
+font-size: 12px;
 font-weight: 500;
 margin-left: 10px;
+width: 271px;
+height: 75px;
+line-height: 20px;
+text-align: justify;
 }
+ 
 
 .servises-place{
 
@@ -95,28 +80,34 @@ margin-left: 10px;
  }
  
  .hospital {
-background-color: #EAF6FC;
-color: #29A9E1;
 margin-bottom: 10px;
- 
+  background: #29A9E11A;  
+border-radius: 8px;
 margin-left: 10px;
 padding: 3px 13px ;
+font-family: "Poppins", sans-serif;
+
 width: 100px;
 display: flex;
 flex-direction: row;
 gap: 10px;
+color: #29A9E1;
 
 }
 
  .clinic{
-    background-color: #EBECEE;
-    color: #334155;
-margin-bottom: 10px;
-margin-left: 10px;
-padding: 3px 10px ;
-display: flex;
-flex-direction: row;
-gap: 10px;
+    /* background: rgba(51, 65, 85, 0.1); */
+    margin-bottom: 10px;
+     background:  #3341551A;  
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 3px 13px ;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 
  }
 
@@ -124,8 +115,10 @@ gap: 10px;
     border-radius: 50%;
     width: 9px;
     height: 9px;
-    background-color: #41B3E4;
-    margin-top: 10px;}
+    background-color: #585454;
+    margin-top: 10px;
+
+}
 
  .placesss{
     display: flex;
@@ -135,20 +128,10 @@ gap: 10px;
 
 
  @media(max-width:900px){
-    .servises-card{
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        gap: 10px; 
-        align-items: center;
-        justify-content: space-around;
-       
-    }
+ 
     .servises1{
         margin-top: 100px;
        
-    
-    
     }
     .servises11{
         margin-top: 0px;

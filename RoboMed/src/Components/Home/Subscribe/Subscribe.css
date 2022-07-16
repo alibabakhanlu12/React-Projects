@@ -5,15 +5,18 @@
       padding: 15px;
       margin:4px;
       box-sizing: border-box;
-      padding-left:60px;
-      width: 700px;
-      height:90px;
+      padding-left:70px;
+      width: 622px;
+      height:82px;
       font-size: 25px;
-      background-color: #F8F8F8;
+      background-color: rgba(188, 188, 188, 0.1);
       border: none;
-      margin-left: 200px;
+      border-radius: 8px;
+    margin-left: -200px;
+    font-family: "Poppins", sans-serif;
+ 
 }
-.text-input:hover{
+.text-input:focus{
     border: none;
 }
 
@@ -22,10 +25,12 @@
       left:0;
       top:20px;
       padding:10px 10px;
-      color:#30A3F1;
+     
       font-size: 55px;
       margin-top: -10px;
-      margin-left: 200px;
+      gap: 10px;
+    margin-left: -200px;
+
 
 }
 
@@ -48,8 +53,7 @@
 }
 
 .contactus-title{
-    margin-left: 40px;
-    margin-top:  140px;
+  
     color: #449cc2;
     font-size: 20px;
     position: absolute;
@@ -58,15 +62,20 @@
 
 }
 .contactus-des{
-    position: absolute;
-     top:492%;
-    margin-left: 40px;
+  
     margin-top: 40px;
     text-align: start;
-    color: #334155;
     font-size: 35px;
     font-weight: 500;
-
+    width: 600px;
+}
+.text{
+    margin-left: 30px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column ;
+    width: 400px;
+    gap: 30px;
 }
 
 
@@ -115,19 +124,26 @@
     }
     .text-input {
         margin-left: -400px;
-        width: 490px;
-        height:90px;
+        width: 380px;
+        height:60px;
         font-size: 25px;
         margin-top: -90px;
         background-color: #F8F8F8;
     
         
   }
+  .text{
+    margin-left: 0px;
+    font-size: 15px;
+    width: 390px;
+    
+  
+}
  
 
   .text-icon{
     position:absolute;
-        top: -10px;;
+        top: -15px;
       padding:10px 10px;
       color:#30A3F1;
       font-size: 50px;
@@ -138,12 +154,12 @@
 }
 .sub-btn {
     position:absolute;
-    right:0px;
-  
-    padding:10px 10px;
+    right:20px;
+    top: 75px;
     background-color:#29A9E1;
-    font-size: 20px;
- 
+    font-size: 15px;
+        width: 100px;
+        height: 50px;
     margin-top: -90px;
     border-radius: 12px;
     color: #fff;
