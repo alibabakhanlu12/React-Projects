@@ -63,7 +63,7 @@ function Doctor() {
       <h3 className='doctor-title'>Team Doctor</h3>
       <h2 className='doctor-des'> Meet Our Specialist</h2>
 
-      <Doctors ></Doctors>
+      <Doctors > 
 
         {DoctorsList.map((index) => (
           <DoctorCard key={index.id}>
@@ -82,5 +82,5 @@ function Doctor() {
     </div>
   )
 }
-
+  
 export default Doctor
