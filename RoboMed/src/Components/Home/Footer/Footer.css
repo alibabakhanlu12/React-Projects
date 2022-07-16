@@ -99,37 +99,30 @@ font-family: "Poppins", sans-serif;
     flex-direction: row;
     gap: 4px;
     font-family: "Poppins", sans-serif;
-
+ 
 }
 
 @media(max-width:900px){
  
-    footer {
-       width: 350px;
-        height: 400px;
-       margin-bottom: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        gap: 50px;
-        margin-left: 20px;
-    
-    }
+ 
     .footer-des{
         margin-left: -140px;
         display: flex;
         flex-direction: column;
         width: 100px;
-        margin-left: -205px;
+        margin-left: -215px;
         /* margin-right:-190px; */
         font-family: "Poppins", sans-serif;
     }
     .footer-des1{
     
         font-size: 20px;
-        width: 330px;
+        width: 320px;
         font-weight: 400;
       
     }
+    .coppyright{
+        width: 80%;
+    }
+    
 }
