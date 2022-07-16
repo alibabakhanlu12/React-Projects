@@ -1,33 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
  
 
-.footer{
-    background: rgb(241,249,252);
-    background: linear-gradient(94deg, rgba(241,249,252,1) 23%, rgba(245,239,221,1) 45%, rgba(234,241,244,1) 100%);
-    font-family: "Poppins", sans-serif;     
-}
-
-footer {
-   width: 100%;
-    height: 350px;
-margin-bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-
-}
-
+ 
+ 
 
 .footer-title{
 font-size: 50px;
-color: #334155;
 font-weight: 700;
 font-family: "Poppins", sans-serif;
-}
+}  
 .footer-des1{
-color: #9EABBA;
 font-size: 20px;
 width: 500px;
 font-weight: 400;
@@ -68,8 +50,17 @@ font-family: "Poppins", sans-serif;
 
 }
 .icon {
-    font-size: 20px;
-    color: #29A9E1;
+    color: #334155;
+    background-color: #29A9E1;
+    padding: 9px 9px;
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+}
+.icon1 {
+ 
+          color: #29A9E1;
+    border-radius: 11px;
 }
 
 .footer-phone{
@@ -98,10 +89,12 @@ font-family: "Poppins", sans-serif;
 
 .coppyright{
     margin-top: 30px;
-    border: 1px solid #fff;
-    font-size: 20px;
+    margin-bottom: 0px;
+    font-size: 15px;
     height: 60px;
-    margin: 30px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 4px;
@@ -112,7 +105,7 @@ font-family: "Poppins", sans-serif;
 @media(max-width:900px){
  
     footer {
-       width: 300px;
+       width: 350px;
         height: 400px;
        margin-bottom: 0px;
         display: flex;
@@ -131,5 +124,12 @@ font-family: "Poppins", sans-serif;
         margin-left: -205px;
         /* margin-right:-190px; */
         font-family: "Poppins", sans-serif;
+    }
+    .footer-des1{
+    
+        font-size: 20px;
+        width: 330px;
+        font-weight: 400;
+      
     }
 }

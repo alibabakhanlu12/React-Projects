@@ -1,29 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
  
-.navbar{
-  
-    width: 100%;
-    height: 40px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #ffff;
-    margin-bottom: -17px;
-  
-
-}
+ 
 .nav-icon{
     display: flex;
     flex-direction: row-reverse;
-    gap: 10px;
+    gap: 4px;
     font-family: "Poppins", sans-serif;
     justify-content: center;
     align-self:center;
     font-size: 25px;
     cursor: pointer;
-    color: #334155;
-}
+}  
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -33,19 +20,19 @@
     font-family: "Poppins", sans-serif;
 
     font-size: 20px;
-    color: #A8B2C0;
     font-weight: 400;
  
 }
-
-.home1{
-    background-color: #D4EDF8;
-    border-radius: 12px;
+.darkmode{
+  display: flex;
+margin-right: -6px;
+font-size: 16px;
 }
 
-.links-home {
+ 
 
-    color: #4FB8E6;
+.links-home {
+ 
     background-color: #D4EDF8;
     padding: 8px 10px;
     border-radius: 10px;
@@ -73,27 +60,8 @@ a {
     list-style-type: none;
   }
   
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-    box-shadow: rgba(177, 177, 187, 0.23) 0px 30px 30px -20px;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    background-color: #fff;
   
-    /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
-  }
-  
-  .logo {
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-  }
-  
+ 
   .nav-links {
     display: flex;
     justify-content: flex-end;
@@ -101,12 +69,10 @@ a {
   }
   
   .nav-links li {
-    color: black;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     margin: 0 10px;
     cursor: pointer;
-    text-transform: capitalize;
     font-size: 18px;
   }
   
@@ -132,29 +98,18 @@ a {
     background: none;
   }
   
-  .nurse_login1,
-  .user_login1 {
-    color: #fff;
-    background-color: aquamarines;
-  
+ 
+  .darkmode1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
   
+ 
   
-  
-  .nurse_login,
-  .user_login {
-    /* background-color: blue; */
-    border-radius: 12px;
-    margin-right: 4px;
-    /* width: 600px; */
-    /* height: 60px; */
-    /* color: white; */
-  
-  }
-  
-  .nurse_login {
-    margin-left: 30px;
-  }
+ 
   
   .icons {
     font-size: 18px;
@@ -181,13 +136,13 @@ a {
       position: absolute;
       display: block;
       list-style: none;
-      box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
       left: 0;
       top: 10%;
       transition: all 0.5s ease-in-out;
       width: 100%;
-      background-color: white;
       z-index: 1;
+
+      background-color: rgb(54, 36, 12);
     }
   
   
@@ -206,8 +161,23 @@ a {
       position: absolute;
       display: block;
       right: 20px;
+    } 
+    .darkmode1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
     }
-  
+    .toggle{
+      width: 60px;
+      position: absolute;
+    }
+    .darkmode{
+      height: 40px;
+      width: 300px;
+      
+      font-size: 30px;
+    }
     .hero h1 {
       font-size: 50px;
         }}

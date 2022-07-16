@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Footer.css'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
@@ -8,10 +8,57 @@ import {BsInstagram} from 'react-icons/bs'
 import {ImWhatsapp} from 'react-icons/im'
 import {ImYoutube} from 'react-icons/im'
 import {BiCopyright} from 'react-icons/bi'
+
+import styled from 'styled-components'
+
+import { Themecontext } from '../../../App'
+  
+
+
 function Footer() {
+  const { theme } = useContext(Themecontext)
+
+
+  const Footer = styled.footer`
+      background:${theme?'#334155' :'rgb(241,249,252)'} ;
+    background:${theme?'#334155' :'linear-gradient(94deg, rgba(241,249,252,1) 23%, rgba(245,239,221,1) 45%, rgba(234,241,244,1) 100%)'};
+    font-family: "Poppins", sans-serif; 
+backdrop-filter: blur(200px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 8px;
+  `
+
+const Footer1 = styled.div`
+   width: 100%;
+    height: 350px;
+margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    @media(max-width:900px){
+  
+    width: 350px;
+     height: 400px;
+    margin-bottom: 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     gap: 50px;
+     margin-left: 20px;
+ 
+    }
+
+
+`
+
+
+
   return (
-    <div className='footer'>
-    <footer className=''> 
+    <Footer>
+    <Footer1> 
     
     <div className='footer-des'>
 
@@ -37,17 +84,17 @@ function Footer() {
     <div className='footer-conect'>
 
 
-<h3 className='footer-phone'><BsFillTelephoneFill  className='icon'/> (335) 435 4343</h3>
-<h3 className='footer-email'><MdEmail  className='icon'/> hospitaladmin@yahoo.com</h3>
-<h3 className='footer-address'><ImLocation2  className='icon'/> Newyork</h3>
+<h3 className='footer-phone'><BsFillTelephoneFill  className='icon1'/> (335) 435 4343</h3>
+<h3 className='footer-email'><MdEmail  className='icon1'/> hospitaladmin@yahoo.com</h3>
+<h3 className='footer-address'><ImLocation2  className='icon1'/> Newyork</h3>
 
     </div>
-     </footer>
+     </Footer1>
     <div className='coppyright'>
        <BiCopyright/> <p> 2022 Global Access Teleheath .All Rights Reserved .Privacy Policy</p>
     </div>
    
-    </div>
+    </Footer>
   )
 }
 
